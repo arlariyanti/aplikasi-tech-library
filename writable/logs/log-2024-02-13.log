@@ -1,0 +1,299 @@
+ERROR - 2024-02-13 00:37:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'dbs_perpus', 3306, '', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelBuku.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelBuku->Buku()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelBuku.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelBuku->Buku()
+#5 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#10 {main}
+CRITICAL - 2024-02-13 00:37:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`
+LEFT JOIN `kategori` ON `kategori`.`id_kategori` = `buku`.`id_kategori`
+ORDER BY `id_buku` DESC
+ LIMIT 12', [], false)
+ 3 APPPATH\Models\ModelBuku.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(22): App\Models\ModelBuku->Buku()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-13 00:37:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'dbs_perpus', 3306, '', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelBuku.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelBuku->Buku()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelBuku.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelBuku->Buku()
+#5 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#10 {main}
+CRITICAL - 2024-02-13 00:37:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`
+LEFT JOIN `kategori` ON `kategori`.`id_kategori` = `buku`.`id_kategori`
+ORDER BY `id_buku` DESC
+ LIMIT 12', [], false)
+ 3 APPPATH\Models\ModelBuku.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(22): App\Models\ModelBuku->Buku()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 15:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:34:57 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Kategori.php(31): App\Models\ModelKategori->Add(Array)
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-13 15:34:57 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kategori` (`kategori`) VALUES (:kategori:)', [...], false)
+ 2 APPPATH\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(31): App\Models\ModelKategori->Add([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 15:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:35:13 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Kategori.php(31): App\Models\ModelKategori->Add(Array)
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-13 15:35:13 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kategori` (`kategori`) VALUES (:kategori:)', [...], false)
+ 2 APPPATH\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(31): App\Models\ModelKategori->Add([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 15:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 15:35:28 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Kategori.php(31): App\Models\ModelKategori->Add(Array)
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-13 15:35:28 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kategori` (`kategori`) VALUES (:kategori:)', [...], false)
+ 2 APPPATH\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(31): App\Models\ModelKategori->Add([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 15:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 15:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 16:00:12 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Kategori.php(31): App\Models\ModelKategori->Add(Array)
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-13 16:00:12 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kategori` (`kategori`) VALUES (:kategori:)', [...], false)
+ 2 APPPATH\Models\ModelKategori.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Kategori.php(31): App\Models\ModelKategori->Add([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->Add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 16:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-13 16:11:52 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelBuku.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Buku.php(110): App\Models\ModelBuku->AddData(Array)
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Buku->SimpanData()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-13 16:11:52 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`id_kategori`, `judul`, `penulis`, `penerbit`, `tahun_terbit`, `deskripsi`, `cover`) VALUES (:id_kategori:, :judul:, :penulis:, :penerbit:, :tahun_terbit:, :deskripsi:, :cover:)', [...], false)
+ 2 APPPATH\Models\ModelBuku.php(27): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Buku.php(110): App\Models\ModelBuku->AddData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->SimpanData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 16:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 16:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-13 17:28:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\buku\v_editdata.php on line 37.
+ 1 APPPATH\Views\buku\v_editdata.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\buku\\v_editdata.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\buku\\v_editdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('buku/v_editdata', [], true)
+ 5 APPPATH\Views\v_template_admin.php(229): view('buku/v_editdata')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\Buku.php(128): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->EditData('22')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-13 17:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-13 17:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

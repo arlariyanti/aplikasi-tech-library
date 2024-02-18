@@ -1,0 +1,235 @@
+ERROR - 2024-02-11 05:12:05 --> mysqli_sql_exception: Table 'perpus.tbl_slider' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-11 05:12:05 --> Table 'perpus.tbl_slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_slider`
+WHERE `id_slider` = :id_slider:', [...], false)
+ 2 APPPATH\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-11 05:12:06 --> mysqli_sql_exception: Table 'perpus.tbl_slider' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-11 05:12:06 --> Table 'perpus.tbl_slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_slider`
+WHERE `id_slider` = :id_slider:', [...], false)
+ 2 APPPATH\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-11 05:15:44 --> mysqli_sql_exception: Table 'perpus.tbl_slider' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-11 05:15:44 --> Table 'perpus.tbl_slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_slider`
+WHERE `id_slider` = :id_slider:', [...], false)
+ 2 APPPATH\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-11 05:20:46 --> mysqli_sql_exception: Table 'perpus.tbl_web' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(213): include('C:\\xampp 8.1\\ht...')
+#6 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp 8.1\htdocs\perpuss\system\Common.php(1177): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(24): view('v_template', Array)
+#9 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#14 {main}
+CRITICAL - 2024-02-11 05:20:46 --> Table 'perpus.tbl_web' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 2 APPPATH\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template', [], true)
+ 6 APPPATH\Controllers\Home.php(24): view('v_template', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-11 05:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-11 05:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-11 05:21:34 --> mysqli_sql_exception: Table 'perpus.tbl_user' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelAuth.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Auth.php(55): App\Models\ModelAuth->LoginUser('admin@gmail.com', '1234')
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Auth->CekLoginUser()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-11 05:21:34 --> Table 'perpus.tbl_user' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `email` = :email:
+AND `password` = :password:', [...], false)
+ 2 APPPATH\Models\ModelAuth.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Auth.php(55): App\Models\ModelAuth->LoginUser('admin@gmail.com', '1234')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->CekLoginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-11 05:44:22 --> mysqli_sql_exception: Table 'perpus.tbl_web' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(213): include('C:\\xampp 8.1\\ht...')
+#6 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp 8.1\htdocs\perpuss\system\Common.php(1177): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(24): view('v_template', Array)
+#9 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#14 {main}
+CRITICAL - 2024-02-11 05:44:22 --> Table 'perpus.tbl_web' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 2 APPPATH\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template', [], true)
+ 6 APPPATH\Controllers\Home.php(24): view('v_template', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-11 05:45:36 --> mysqli_sql_exception: Table 'perpus.tbl_web' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(213): include('C:\\xampp 8.1\\ht...')
+#6 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp 8.1\htdocs\perpuss\system\Common.php(1177): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(24): view('v_template', Array)
+#9 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#14 {main}
+CRITICAL - 2024-02-11 05:45:36 --> Table 'perpus.tbl_web' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 2 APPPATH\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template', [], true)
+ 6 APPPATH\Controllers\Home.php(24): view('v_template', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-11 06:17:35 --> mysqli_sql_exception: Table 'perpus.tbl_web' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(213): include('C:\\xampp 8.1\\ht...')
+#6 C:\xampp 8.1\htdocs\perpuss\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp 8.1\htdocs\perpuss\system\Common.php(1177): CodeIgniter\View\View->render('v_template', Array, true)
+#8 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(24): view('v_template', Array)
+#9 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#14 {main}
+CRITICAL - 2024-02-11 06:17:35 --> Table 'perpus.tbl_web' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_web`
+WHERE `id_web` = :id_web:', [...], false)
+ 2 APPPATH\Views\v_template.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template', [], true)
+ 6 APPPATH\Controllers\Home.php(24): view('v_template', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

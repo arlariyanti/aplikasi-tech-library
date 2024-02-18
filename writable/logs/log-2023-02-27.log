@@ -1,0 +1,28 @@
+INFO - 2023-02-27 06:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-27 06:07:31 --> Call to undefined method App\Controllers\Auth::rulesLogin()
+in APPPATH\Controllers\Auth.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->CekLoginUser()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-27 06:08:00 --> Too few arguments to function CodeIgniter\Controller::validate(), 0 passed in C:\pkl\perpus\app\Controllers\Auth.php on line 33 and at least 1 expected
+in SYSTEMPATH\Controller.php on line 136.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Controller->validate()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->CekLoginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-27 06:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-27 06:08:10 --> Too few arguments to function CodeIgniter\Controller::validate(), 0 passed in C:\pkl\perpus\app\Controllers\Auth.php on line 33 and at least 1 expected
+in SYSTEMPATH\Controller.php on line 136.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Controller->validate()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->CekLoginUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-02-27 06:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-27 06:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-27 06:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

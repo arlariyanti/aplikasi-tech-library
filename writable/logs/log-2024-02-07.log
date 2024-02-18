@@ -1,0 +1,99 @@
+INFO - 2024-02-07 01:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 01:30:11 --> mysqli_sql_exception: Table 'db_perpustakaan.kategori' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Kategori.php(23): App\Models\ModelKategori->AllData()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Kategori->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-07 01:30:11 --> Table 'db_perpustakaan.kategori' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+ORDER BY `id_kategori` DESC', [], false)
+ 2 APPPATH\Models\ModelKategori.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Kategori.php(23): App\Models\ModelKategori->AllData()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kategori->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-07 01:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 01:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 02:05:48 --> mysqli_sql_exception: Table 'db_perpustakaan.kategori' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Buku.php(34): App\Models\ModelKategori->AllData()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Buku->AddData()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-07 02:05:48 --> Table 'db_perpustakaan.kategori' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+ORDER BY `id_kategori` DESC', [], false)
+ 2 APPPATH\Models\ModelKategori.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Buku.php(34): App\Models\ModelKategori->AllData()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->AddData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-07 02:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-07 02:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-07 02:06:06 --> mysqli_sql_exception: Table 'db_perpustakaan.kategori' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelKategori.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Buku.php(138): App\Models\ModelKategori->AllData()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Buku->EditData('22')
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-07 02:06:06 --> Table 'db_perpustakaan.kategori' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori`
+ORDER BY `id_kategori` DESC', [], false)
+ 2 APPPATH\Models\ModelKategori.php(13): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Buku.php(138): App\Models\ModelKategori->AllData()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Buku->EditData('22')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-07 02:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

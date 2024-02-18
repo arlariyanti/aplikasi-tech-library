@@ -1,0 +1,605 @@
+INFO - 2024-02-16 02:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 02:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 03:01:52 --> Undefined variable $anggota
+in APPPATH\Views\anggota\v_index.php on line 40.
+ 1 APPPATH\Views\anggota\v_index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'APPPATH\\Views\\anggota\\v_index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\anggota\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('anggota/v_index', [], true)
+ 5 APPPATH\Views\v_template_admin.php(229): view('anggota/v_index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\useranggota.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 03:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 03:03:13 --> Undefined variable $anggota
+in APPPATH\Views\anggota\v_index.php on line 40.
+ 1 APPPATH\Views\anggota\v_index.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anggota', 'APPPATH\\Views\\anggota\\v_index.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\anggota\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('anggota/v_index', [], true)
+ 5 APPPATH\Views\v_template_admin.php(229): view('anggota/v_index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\useranggota.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 03:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 03:25:44 --> Undefined variable $kelas
+in APPPATH\Views\anggota\v_adddata.php on line 88.
+ 1 APPPATH\Views\anggota\v_adddata.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelas', 'APPPATH\\Views\\anggota\\v_adddata.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\anggota\\v_adddata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('anggota/v_adddata', [], true)
+ 5 APPPATH\Views\v_template_admin.php(229): view('anggota/v_adddata')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\useranggota.php(46): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->AddData()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 03:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 03:47:20 --> mysqli_sql_exception: Column 'email' cannot be null in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelUserAnggota.php(34): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\useranggota.php(114): App\Models\ModelUserAnggota->AddData(Array)
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\useranggota->SimpanData()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 03:47:20 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `password`, `email`, `alamat`, `nomer_telpon`, `verifikasi`, `foto`) VALUES (:username:, :password:, :email:, :alamat:, :nomer_telpon:, :verifikasi:, :foto:)', [...], false)
+ 2 APPPATH\Models\ModelUserAnggota.php(34): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\useranggota.php(114): App\Models\ModelUserAnggota->AddData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->SimpanData()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 03:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 03:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 03:48:59 --> Undefined array key "nis"
+in APPPATH\Views\anggota\v_index.php on line 43.
+ 1 APPPATH\Views\anggota\v_index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nis"', 'APPPATH\\Views\\anggota\\v_index.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\anggota\\v_index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('anggota/v_index', [], true)
+ 5 APPPATH\Views\v_template_admin.php(229): view('anggota/v_index')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\useranggota.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 03:53:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 05:27:19 --> Invalid file: "useranggota/v_editdata.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useranggota/v_editdata.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('useranggota/v_editdata', [], true)
+ 3 APPPATH\Views\v_template_admin.php(229): view('useranggota/v_editdata')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\useranggota.php(132): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->EditData('0')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 05:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 05:40:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\useranggota.php on line 234.
+ 1 APPPATH\Controllers\useranggota.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\useranggota.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->DeleteData('0')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 05:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 05:40:58 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\useranggota.php on line 234.
+ 1 APPPATH\Controllers\useranggota.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\useranggota.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->DeleteData('0')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 05:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 05:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 05:44:12 --> Invalid file: "useranggota/v_editdata.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useranggota/v_editdata.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('useranggota/v_editdata', [], true)
+ 3 APPPATH\Views\v_template_admin.php(229): view('useranggota/v_editdata')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\useranggota.php(132): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->EditData('0')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 06:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 06:16:45 --> Invalid file: "useranggota/v_editdata.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useranggota/v_editdata.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('useranggota/v_editdata', [], true)
+ 3 APPPATH\Views\v_template_admin.php(229): view('useranggota/v_editdata')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\useranggota.php(132): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->EditData('0')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 06:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 06:43:50 --> Invalid file: "useranggota/v_editdata.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useranggota/v_editdata.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('useranggota/v_editdata', [], true)
+ 3 APPPATH\Views\v_template_admin.php(229): view('useranggota/v_editdata')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\useranggota.php(132): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->EditData('0')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 06:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-16 06:44:45 --> Invalid file: "useranggota/v_editdata.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useranggota/v_editdata.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('useranggota/v_editdata', [], true)
+ 3 APPPATH\Views\v_template_admin.php(229): view('useranggota/v_editdata')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\useranggota.php(132): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\useranggota->EditData('0')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\useranggota))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 06:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:50:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 06:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 06:51:35 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 06:51:35 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `id_user`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:43:19 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:43:19 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `id_user`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 07:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:43:30 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:43:30 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `id_user`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:46:00 --> mysqli_sql_exception: Unknown column 'admin.id_user' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:46:00 --> Unknown column 'admin.id_user' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `id_user`, `admin`.`id_user`, `admin`.`username`, `admin`.`nama`
+FROM `peminjaman`
+LEFT JOIN `admin` ON `admin`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:47:25 --> mysqli_sql_exception: Unknown column 'admin.id_user' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:47:25 --> Unknown column 'admin.id_user' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `id_user`, `admin`.`id_user`, `admin`.`username`, `admin`.`nama`
+FROM `peminjaman`
+LEFT JOIN `admin` ON `admin`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 07:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:47:34 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:47:34 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `qty`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 07:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:50:23 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:50:23 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `qty`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:51:17 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:51:17 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `qty`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:51:21 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:51:21 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `qty`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 07:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 07:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 07:51:29 --> mysqli_sql_exception: Unknown column 'user.id_user' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 07:51:29 --> Unknown column 'user.id_user' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `id_user`, `user`.`id_user`, `user`.`username`, `user`.`username`
+FROM `peminjaman`
+LEFT JOIN `admin` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(62): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(37): App\Models\ModelPeminjaman->PengajuanMasuk()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanMasuk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2024-02-16 08:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-16 08:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-16 08:03:01 --> mysqli_sql_exception: Unknown column 'user.nama' in 'field list' in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`p...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`p...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`p...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`p...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPeminjaman.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-16 08:03:01 --> Unknown column 'user.nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`peminjaman`.`id_user`) AS `qty`, `user`.`id_user`, `user`.`username`, `user`.`nama`
+FROM `peminjaman`
+LEFT JOIN `user` ON `user`.`id_user` = `peminjaman`.`id_user`
+WHERE `status_pinjam` = :status_pinjam:
+GROUP BY `peminjaman`.`id_user`', [...], false)
+ 2 APPPATH\Models\ModelPeminjaman.php(79): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(70): App\Models\ModelPeminjaman->PengajuanDiterima()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->PengajuanDiterima()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

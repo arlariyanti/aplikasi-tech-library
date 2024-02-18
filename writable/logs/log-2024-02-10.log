@@ -1,0 +1,78 @@
+ERROR - 2024-02-10 03:28:03 --> mysqli_sql_exception: Table 'perpus.tbl_slider' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-10 03:28:03 --> Table 'perpus.tbl_slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_slider`
+WHERE `id_slider` = :id_slider:', [...], false)
+ 2 APPPATH\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-10 16:36:27 --> mysqli_sql_exception: Table 'perpus.tbl_slider' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-10 16:36:27 --> Table 'perpus.tbl_slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_slider`
+WHERE `id_slider` = :id_slider:', [...], false)
+ 2 APPPATH\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2024-02-10 16:36:28 --> mysqli_sql_exception: Table 'perpus.tbl_slider' doesn't exist in C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp 8.1\htdocs\perpuss\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp 8.1\htdocs\perpuss\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp 8.1\htdocs\perpuss\app\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp 8.1\htdocs\perpuss\app\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+#6 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp 8.1\htdocs\perpuss\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp 8.1\htdocs\perpuss\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp 8.1\htdocs\perpuss\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp 8.1\\ht...')
+#11 {main}
+CRITICAL - 2024-02-10 16:36:28 --> Table 'perpus.tbl_slider' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_slider`
+WHERE `id_slider` = :id_slider:', [...], false)
+ 2 APPPATH\Models\ModelPengaturan.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(22): App\Models\ModelPengaturan->Slider()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
